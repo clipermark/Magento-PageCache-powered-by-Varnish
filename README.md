@@ -1,3 +1,14 @@
+http://stackoverflow.com/questions/7244321/how-to-update-github-forked-repository
+
+git remote add upstream git@github.com:PHOENIX-MEDIA/Magento-PageCache-powered-by-Varnish.git
+
+git fetch upstream
+git checkout master
+git rebase upstream/master
+
+git push -f origin master # -f only once
+
+
 /*******************************************************************************
  *
  * "PageCache powered by Varnish" – Documentation
